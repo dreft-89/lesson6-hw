@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SkillUP Homework 6">
+    <meta name="keywords" content="HTML form, HTML meta tag, CSS">
+    <meta name="author" content="Uzun Igor">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form action="http://www.mocky.io/v2/5e4a3cb02f0000640097cfc9">
+        <div class="form">
+            <div>
+                <label for="firstname">Your Name</label><br>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div>
+                <label for="email">Your Email</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <p>Knowlege of English</p>
+                <p><input type="checkbox" name="don't know">Don't know</p>
+                <p><input checked type="checkbox" name="low">Low</p>
+                <p><input type="checkbox" name="good">Good</p>
+                <p><input type="checkbox" name="Advanced">Advanced</p>
+            </div>
+            <div>
+                <p>Choose a course of study</p>
+                <select name="courses" type="text">
+                    <option value="" disabled selected>Please select</option>
+                    <option value="Front End">Front End</option>
+                    <option value="Back End">Back End</option>
+                    <option value="Test QA">Test QA</option>
+                </select>
+            </div>
+            <div>
+                <label for="textarea">Your Message</label>
+                <textarea id="textarea" name="text" cols="80" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+.form {
+    background-color: #F0F0F0;
+    border: 5px solid black;
+}
+
+div {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+}
